@@ -1,0 +1,9 @@
+# TensorFlow (pinned to version compatible with tensorflow-metal)
+tensorflow>=2.16.0,<2.18.0
+# GPU acceleration on macOS
+tensorflow-metal==1.2.0; sys_platform == 'darwin' and platform_machine == 'arm64'
+# Bundled with TensorFlow 2.16+, but explicit for standalone use
+keras>=3.7.0
+
+jupyterlab>=4.3.0
+matplotlib
