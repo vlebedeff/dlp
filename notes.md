@@ -24,3 +24,7 @@ flowchart LR
     AnswersML --> ML
     ML        --> RulesML
 ```
+
+Machine Learning algorithms merely search through a predefined set of operations, called a _hypothesis space_.
+For instance, the space of all possible coordinate changes would be our hypothesis space in the 2D coordinates
+classification example.
